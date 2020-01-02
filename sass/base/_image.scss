@@ -1,0 +1,28 @@
+.img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+    &__1 {
+        width: 8rem;
+        justify-self: end;
+        filter: drop-shadow(0px 0px 5px rgba($color-dark, 0.4));
+    }
+
+    &__2 {
+        width: 8rem;
+        justify-self: center;
+        filter: drop-shadow(0px 0px 5px rgba($color-dark, 0.4));
+    }
+
+    &__3 {
+        width: 8rem;
+        justify-self: start;
+        filter: drop-shadow(0px 0px 5px rgba($color-dark, 0.4));
+    }
+} 
+.work-1 {
+    width: 70%;
+    height: auto;
+    justify-items: center;
+    align-self: center;
+}
