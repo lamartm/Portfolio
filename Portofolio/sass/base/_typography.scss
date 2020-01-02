@@ -1,0 +1,77 @@
+.title {
+    display: block;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: $color-white;
+    font-size: 3rem;
+    margin-top: -5rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    filter: blur(.7px);
+    text-shadow: 0rem 0rem .7rem rgba($color-white, .4);
+}
+
+.span {
+    &__secondary {
+        color: $color-yellow-light-zetta;
+        text-shadow: 0rem 0rem .7rem rgba($color-yellow-light-zetta, .6);
+    }
+    &__tertiary { 
+        color: $color-blue;
+        text-shadow: 0rem 0rem .7rem rgba($color-blue, .6);
+    }
+}
+.article {
+    &__1 {
+        font-family: 'Ubuntu', sans-serif;
+        color: $color-white;
+        font-size: 2rem;
+        text-align: center;
+        filter: blur(.7px);
+        text-shadow: 0rem 0rem .7rem rgba($color-white, .4);
+    }
+}
+.outdoors {
+    width: 80%;
+    text-align: center;
+    &__h2 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 4rem;
+        color: $color-white;
+        filter: blur(.7px);
+        text-shadow: 0rem 0rem .7rem rgba($color-white, .4);
+    }
+
+    p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2rem;
+        color: $color-white;
+        filter: blur(.7px);
+        text-shadow: 0rem 0rem .7rem rgba($color-white, .4);
+    }
+}
+
+.contact {
+    &__h2 {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 4rem;
+        color: $color-white;
+        filter: blur(.7px);
+        text-shadow: 0rem 0rem .7rem rgba($color-white, .4);
+    }
+    &__p {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2rem;
+        color: $color-white;
+        filter: blur(.7px);
+        text-shadow: 0rem 0rem .7rem rgba($color-white, .4);
+    }
+}
+
+

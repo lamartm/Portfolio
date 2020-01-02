@@ -1,0 +1,15 @@
+.work__1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.work__2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.outdoors {
+    align-self: center;
+}

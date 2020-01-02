@@ -1,0 +1,55 @@
+.main__background {
+    background-image: linear-gradient(to left, rgba($color-blue-light, 1), rgba($color-blue-dark, 1));
+        width: 100vw;
+        height: 100vh;
+    }
+
+.grid-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba($color-blue-light, 1), rgba($color-blue-dark, 1));
+    z-index: 100;
+}
+
+.work__1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-dark;
+}
+
+.work__2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba($color-yellow, 1), rgba($color-yellow-light, 1));
+}
+
+#layer1 {
+    position: inline-block;
+    top: 50%;
+    overflow-y: hidden;
+    padding-bottom: 2rem;
+}
+
+.starss {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-dark;
+
+    &__h2 {
+        padding-bottom: 2rem;
+    }
+
+    article {
+        align-self: center;
+    }
+}
