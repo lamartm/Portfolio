@@ -256,6 +256,10 @@ body {
   filter: blur(0.7px);
   text-shadow: 0rem 0rem 0.7rem rgba(255, 255, 255, 0.4); }
 
+.link {
+  text-decoration: none;
+  border: none; }
+
 .img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
