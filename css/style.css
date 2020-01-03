@@ -9,26 +9,12 @@ html {
 body {
   overflow-x: hidden; }
 
-.title {
-  transform: translateY(-14rem);
-  opacity: 0;
-  transition: all 5s;
-  animation-name: box;
-  animation-duration: 2s;
-  animation-fill-mode: forwards; }
-
-@keyframes box {
-  0% { }
-  100% {
-    opacity: 1;
-    transform: translateY(0); } }
-
 .star {
   position: absolute;
   top: 50%;
   left: 50%;
   height: 2px;
-  width: 2000px;
+  width: 200px;
   animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite; }
 
 .star::before, .star::after {
@@ -58,8 +44,8 @@ body {
 .star:nth-child(2) {
   background: linear-gradient(-45deg, #ecc045, rgba(0, 0, 255, 0));
   filter: drop-shadow(0 0 6px #eebf69);
-  top: calc(23% - -50px);
-  left: calc(65% - 190px);
+  top: calc(32% - -50px);
+  left: calc(36% - 190px);
   animation-delay: 150ms; }
 
 .star:nth-child(2)::before, .star:nth-child(2)::after {
@@ -76,8 +62,8 @@ body {
   animation-delay: 1600ms; }
 
 .star:nth-child(4) {
-  background: linear-gradient(-45deg, #ecc045, rgba(0, 0, 255, 0));
-  filter: drop-shadow(0 0 6px #eebf69);
+  background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+  filter: drop-shadow(0 0 6px #699bff);
   top: calc(98% - 50px);
   left: calc(23% - 250px);
   animation-delay: 4700ms; }
@@ -89,7 +75,7 @@ body {
   background: linear-gradient(-45deg, #ecc045, rgba(0, 0, 255, 0));
   filter: drop-shadow(0 0 6px #eebf69);
   top: calc(50% - -190px);
-  left: calc(70% - 200px);
+  left: calc(44% - 200px);
   animation-delay: 200ms; }
 
 .star:nth-child(5)::before, .star:nth-child(5)::after {
