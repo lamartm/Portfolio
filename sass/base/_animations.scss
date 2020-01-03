@@ -1,27 +1,10 @@
-.title {
-    transform: translateY(-14rem);
-    opacity: 0;
-    transition: all 5s;
-    animation-name: box;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    @keyframes box {
-        0% {
-
-        } 100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        
-    }
-}
 
 .star {
     position: absolute;
     top: 50%;
     left: 50%;
     height: 2px;
-    width: 2000px;
+    width: 200px;
     animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite;
   }
   
@@ -44,8 +27,8 @@
   .star:nth-child(1) {
     background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
     filter: drop-shadow(0 0 6px #699bff);
-    top: calc(32% - 200px);
-    left: calc(36% - 300px);
+    top: calc(34% - 200px);
+    left: calc(50% - 300px);
     animation-delay: 1000ms;
   }
   .star:nth-child(1)::before, .star:nth-child(1)::after {
@@ -55,8 +38,8 @@
   .star:nth-child(2) {
     background: linear-gradient(-45deg, #ecc045, rgba(0, 0, 255, 0));
     filter: drop-shadow(0 0 6px #eebf69);
-    top: calc(23% - -50px);
-    left: calc(65% - 190px);
+    top: calc(32% - -50px);
+    left: calc(36% - 190px);
     animation-delay: 150ms;
   }
   .star:nth-child(2)::before, .star:nth-child(2)::after {
