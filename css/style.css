@@ -89,7 +89,7 @@ body {
   left: calc(12% - 200px);
   animation-delay: 100ms; }
 
-.star:nth-child(6)::before, .star:nth-child(5)::after {
+.star:nth-child(6)::before, .star:nth-child(6)::after {
   animation-delay: 100ms; }
 
 .star:nth-child(8) {
@@ -99,7 +99,7 @@ body {
   left: calc(81% - 200px);
   animation-delay: 3000ms; }
 
-.star:nth-child(8)::before, .star:nth-child(5)::after {
+.star:nth-child(8)::before, .star:nth-child(8)::after {
   animation-delay: 3000ms; }
 
 .star:nth-child(7) {
@@ -109,7 +109,7 @@ body {
   left: calc(81% - 200px);
   animation-delay: 100ms; }
 
-.star:nth-child(7)::before, .star:nth-child(5)::after {
+.star:nth-child(7)::before, .star:nth-child(7)::after {
   animation-delay: 100ms; }
 
 @keyframes tail {
